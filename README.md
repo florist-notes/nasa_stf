@@ -33,3 +33,7 @@ Any processes and presentation methods that fulfill the overall challenge aim sh
     - Create a code repository for your project so that other people can review and/or leverage your efforts.
 </p>
 <hr>
+Data and Resources:
+
+<hr>
+<img src="./img/nasa.png" height=70px><a> </a><img src="./img/esa.png" height=70px><a> </a><img src="./img/jaxa.png" height=70px><a> </a><img src="./img/earthdata.jpg" height=70px><a> </a><img src="./img/csa.png" height=70px>
