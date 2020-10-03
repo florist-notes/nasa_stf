@@ -1,9 +1,18 @@
 # Nasa International Space Application Challenge
-### Team : [ArcredX](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/arcredx/project) | [Challenge](https://2020.spaceappschallenge.org/challenges/) - Spot The Fire v3.0 [[Details](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/details)] | arcredxnasa.us
+### Team : [ArcredX](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/arcredx/project) | [Challenge](https://2020.spaceappschallenge.org/challenges/) - Spot The Fire v3.0 [[Details](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/details)] | [arcredxnasa.us](arcredxnasa.us)
 
 <img src="./img/nasa_sac.png" height=150px><a> </a><img src="./img/arcredx.PNG" height=150px>
 <hr>
-Arc 🌌
+
+### Data Points
+🌌 Goal - Patterns in Lightning 
+- Weather Data (Wind, Temperature, Humidity, Atmospheric Oxygen and Dry Climate/Season Data)
+- Past Wildfires Data [ location/ time/ duration/ severity ]
+- Dataset - [NCDC Storm Events Database](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00510) - [data](ftp://ftp.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/) | [NESDIS Hazard Mapping System Fire and Smoke Program](https://catalog.data.gov/dataset/nesdis-hazard-mapping-system-fire-and-smoke-program) | [Meteomatics](https://www.meteomatics.com/en/api/getting-started) | [Nasa EarthData - Wildfires](https://earthdata.nasa.gov/learn/toolkits/wildfires) | [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
+
+<img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
+<hr>
+
 <hr>
 
 ## Problem Statement
@@ -38,11 +47,11 @@ Any processes and presentation methods that fulfill the overall challenge aim sh
 
 ## Data and Resources:
 
-API and Satellite Data - Sign Up! [OpenNex](https://opennex.org/) | [Fire Information for Resource Management System (FIRMS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms) | [GeoNEX](https://www.nasa.gov/geonex) - [Data Portal](https://data.nas.nasa.gov/geonex/data.php) | [Jaxa Earth Data](http://earth.jaxa.jp/en.html) | [Jaxa Wildfire Data](https://kuroshio.eorc.jaxa.jp/JASMES/index.html) | [Jaxa Wild Fire, Aerosol Optical Thickness Himawari Monitor](https://www.eorc.jaxa.jp/ptree/index.html) | [Jaxa Web-based System Using ALOS-2 to Monitor Tropical Forests On a Near Real-time Basis](https://www.eorc.jaxa.jp/jjfast/) | [Jaxa - JAXA satellite database related to land, sea, atmosphere, snow and sea ice, water cycle and climate fields](https://gportal.jaxa.jp/gpr/?lang=en) | [Euro Data Cube](https://www.sentinel-hub.com/spaceapps_challenge/)
+API and Satellite Data - Sign Up! [OpenNex](https://opennex.org/) | [Fire Information for Resource Management System (FIRMS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms) | [GeoNEX](https://www.nasa.gov/geonex) - [Data Portal](https://data.nas.nasa.gov/geonex/data.php) | [Jaxa Earth Data](http://earth.jaxa.jp/en.html) | [Jaxa Wildfire Data](https://kuroshio.eorc.jaxa.jp/JASMES/index.html) | [Jaxa Wild Fire, Aerosol Optical Thickness Himawari Monitor](https://www.eorc.jaxa.jp/ptree/index.html) | [Jaxa Web-based System Using ALOS-2 to Monitor Tropical Forests On a Near Real-time Basis](https://www.eorc.jaxa.jp/jjfast/) | [JAXA satellite database related to land, sea, atmosphere, snow and sea ice, water cycle and climate fields](https://gportal.jaxa.jp/gpr/?lang=en) | [Euro Data Cube](https://www.sentinel-hub.com/spaceapps_challenge/)
 
 Weather Data - [Meteo Matics Weather Data](https://www.meteomatics.com/en/nasa-space-apps-challenge/) - [API Query](https://www.meteomatics.com/en/api/getting-started) 
 
-[CSA MOPPIT](ftp://data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/MOPITT/) : Carbon monoxide is an immediate product of forest fires. MOPITT data is used regularly with surface observations to illustrate concentrations of this toxic gas through the atmosphere and how this pollution is transported from the source location to other parts of the world. 
+[CSA MOPPIT - ftp://data.asc-csa.gc.ca/users/OpenData_DonneesOuvertes/pub/MOPITT/ ] : Carbon monoxide is an immediate product of forest fires. MOPITT data is used regularly with surface observations to illustrate concentrations of this toxic gas through the atmosphere and how this pollution is transported from the source location to other parts of the world. 
 
 
 
