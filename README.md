@@ -18,22 +18,23 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 - <b>[Future Scope] Sensor Data:</b> IOT sensors with cameras will be placed in strategic locations in wildlife sanctuaries/ national parks which will be embedded with our state of the art vision systems and infrared imaging powered by artificial intelligence/ deep learning to detect smokes and fire. The strategic locations will be found with data analysis of past data for starting point (latitude, longitude) of the wild fires.
 
-- <b>[Future Scope] Drone Data:</b> Upon receiving early detection signals from sensors, swarms of drones can be deployed to particular location to map the particular area in real time.
+- <b>[Future Scope] Drone Data:</b> Upon receiving early detection signals from sensors, swarms of mini drones can be deployed to particular location to map the particular area in real time.
 
 `Prediction:`
 
-- <b>Risk Factor (Prediction):</b> We predict the risk factor of having wildfires due to weather phenomena into three levels - Low, Moderate and High based on Weather and Satellite data. Factors such as Dry Season, High Aerosol, Lightning etc may lead to a natural wildfire.
+- <b>Risk Factor [Prediction]:</b> We predict the risk factor of having wildfires due to weather phenomena into three levels - Low, Moderate and High based on Weather and Satellite data. Factors such as Dry Season, High Aerosol, Lightning etc may lead to a natural wildfire.
 
 - <b>Spread Direction & Severity:</b> We predict the spread direction of the wildfire based on factors such as wind, connectivity of vegetation etc. We visualize and update it real time in the map with yellow marking around the red hotspot of fire.
 
-- <b>Safety and Optimal Path:</b> We find the most optimal path from the current location (near wildfire) to a safety location (relief camp etc) via optimal Machine Learning Algorithms. We process mobility data of the region and give insights in the map on crowded streets, risk score etc. We also embed Augmented Reality in AR.js into our solution
-
 `Visualization:`
 
-- <b>Visualizations </b> 
+- <b>Visualizations: </b>Visualizations and seamless UI.
 
 `Awareness and Safety:`
 
+- <b>Awareness:</b> The map visualizes all the fire hazards in real time with predicted spread directions, generates risk factor predictions and severity of current wildfire. If subscribed, our solution also generates alerts for users within a certain range of the origin of the fire. 
+
+- <b>Safety and Optimal Path:</b> We find the most optimal path from the current location (near wildfire) to a safety location (relief camp etc) via optimal Machine Learning Algorithms. We process mobility data of the region and give insights in the map on crowded streets, risk score etc. We also embed Augmented Reality with AR.js into our solution to help visualize directions better when people are in a state of panic (often in the case of wildfire).
 
 ### Data Points
 🌌 Goal - Patterns in Lightning 
