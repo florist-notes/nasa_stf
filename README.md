@@ -36,4 +36,5 @@ Any processes and presentation methods that fulfill the overall challenge aim sh
 Data and Resources:
 
 <hr>
+
 <img src="./img/nasa.png" height=70px><a> </a><img src="./img/esa.png" height=70px><a> </a><img src="./img/jaxa.png" height=70px><a> </a><img src="./img/earthdata.jpg" height=70px><a> </a><img src="./img/csa.png" height=70px>
