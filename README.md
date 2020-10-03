@@ -7,15 +7,49 @@
 ## Solution:
 <img src="./img/solution.jpg"><a> </a>
 
+We propose an end-to-end platform for real time detection, prediction and awarenesss for fire hazard/ wild fires. Our solution is subdivided into 4 parts and the Flow of our solution is:
+
+`Detection:` We have 4 data sources for detection of fire and they are namely:
+
+- <b>Satellite Data:</b> NASA {FIMRS, OpenNEX, GeoNEX} & NOAA Data, Jaxa, CSA MOPITT and ESA Data to detect wild fires in almost real time. This is our first point of data collection for wildfires from satellite view.
+
+- <b>Crowdsourced Data:</b> Anyone who knows of/ comes across any fire hazard / smoke in a volatile area can click a picture and send it over with GPS location (latitude, longitude) to report the incident and it will be sent to fire department and updated in the visualization board for others to see and be aware of.<br /><br />
+To avoid false alarms we run an object classification CNN model on the picture and if our deep learning model detects it to be smoke/fire/fumes/burning then only it will be reported. 
+
+- <b>Sensor Data:</b> IOT sensors with cameras will be placed in strategic locations in wildlife sanctuaries/ national parks which will be embedded with our state of the art vision systems and infrared imaging powered by artificial intelligence/ deep learning to detect smokes and fire. The strategic locations will be found with data analysis of past data for starting point (latitude, longitude) of the wild fires.
+
+- <b>Drone Data:</b> Upon receiving early detection signals from sensors, swarms of drones can be deployed to particular location to map the particular area in real time.
+
+`Prediction:`
+
+- <b>Risk Factor (Prediction):</b> We
+
+
+- <b>Spread Direction & Severity:</b>
+
+- <b>Safety and Optimal Path:</b>
+
+`Visualization:`
+
+`Awareness and Safety:`
+
 
 ### Data Points
 🌌 Goal - Patterns in Lightning 
 - Weather Data (Wind, Temperature, Humidity, Atmospheric Oxygen and Dry Climate/Season Data)
-- Past Wildfires Data [ location/ time/ duration/ severity ]
+- Past Wildfires Data [ location/ time/ duration/ severity ] | [data.gov](https://www.data.gov/)
 - Dataset - [NCDC Storm Events Database](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00510) - [data](ftp://ftp.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/) | [NESDIS Hazard Mapping System Fire and Smoke Program](https://catalog.data.gov/dataset/nesdis-hazard-mapping-system-fire-and-smoke-program) | [Meteomatics](https://www.meteomatics.com/en/api/getting-started) | [Nasa EarthData - Wildfires](https://earthdata.nasa.gov/learn/toolkits/wildfires) | [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
 
 <img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
 <hr>
+
+### Technology Stack
+- Web Application:
+- Visualization:
+- Machine Learning: Python
+- Augmented Reality: AR.js
+- Design: Adobe Photoshop, Adobe Illustrator, Adobe Premiere
+
 
 ## Problem Statement
 <p align="justify">
