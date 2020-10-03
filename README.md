@@ -5,6 +5,8 @@
 <hr>
 Arc 🌌
 <hr>
+
+## Problem Statement
 <p align="justify">
 <b>🪐 Challenge : </b>Recent wildfires worldwide have demonstrated the importance of rapid wildfire detection, mitigation, and community impact assessment analysis. Your challenge is to develop and/or augment an existing application to detect, predict, and assess the economic impacts from actual or potential wildfires by leveraging high-frequency data from a new generation of geostationary satellites, data from polar-orbiting environmental satellites, and other open-source datasets.
 </p>
@@ -33,7 +35,8 @@ Any processes and presentation methods that fulfill the overall challenge aim sh
     - Create a code repository for your project so that other people can review and/or leverage your efforts.
 </p>
 <hr>
-Data and Resources:
+
+## Data and Resources:
 
 API and Satellite Data - Sign Up! [OpenNex](https://opennex.org/) | [Fire Information for Resource Management System (FIRMS)](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms) | [GeoNEX](https://www.nasa.gov/geonex) - [Data Portal](https://data.nas.nasa.gov/geonex/data.php) | [Jaxa Earth Data](http://earth.jaxa.jp/en.html) | [Jaxa Wildfire Data](https://kuroshio.eorc.jaxa.jp/JASMES/index.html) | [Jaxa Wild Fire, Aerosol Optical Thickness Himawari Monitor](https://www.eorc.jaxa.jp/ptree/index.html) | [Jaxa Web-based System Using ALOS-2 to Monitor Tropical Forests On a Near Real-time Basis](https://www.eorc.jaxa.jp/jjfast/) | [Jaxa - JAXA satellite database related to land, sea, atmosphere, snow and sea ice, water cycle and climate fields](https://gportal.jaxa.jp/gpr/?lang=en) | [Euro Data Cube](https://www.sentinel-hub.com/spaceapps_challenge/)
 
