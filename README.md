@@ -4,6 +4,10 @@
 <img src="./img/nasa_sac.png" height=150px><a> </a><img src="./img/arcredx.PNG" height=150px>
 <hr>
 
+## Solution:
+<img src="./img/solution.jpg"><a> </a>
+
+
 ### Data Points
 🌌 Goal - Patterns in Lightning 
 - Weather Data (Wind, Temperature, Humidity, Atmospheric Oxygen and Dry Climate/Season Data)
@@ -11,8 +15,6 @@
 - Dataset - [NCDC Storm Events Database](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00510) - [data](ftp://ftp.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/) | [NESDIS Hazard Mapping System Fire and Smoke Program](https://catalog.data.gov/dataset/nesdis-hazard-mapping-system-fire-and-smoke-program) | [Meteomatics](https://www.meteomatics.com/en/api/getting-started) | [Nasa EarthData - Wildfires](https://earthdata.nasa.gov/learn/toolkits/wildfires) | [Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
 
 <img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
-<hr>
-
 <hr>
 
 ## Problem Statement
