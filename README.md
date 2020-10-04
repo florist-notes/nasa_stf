@@ -50,7 +50,7 @@ To avoid false alarms we run an object classification CNN model on the picture a
 <img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
 <hr>
 
-## Our Platform Overview - [Video](https://youtu.be/rAXw9tIKfM8)
+## 💥 Our Platform Overview - [Video](https://youtu.be/rAXw9tIKfM8) 💥
 
 ### Technology Stack
 - Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
@@ -68,6 +68,8 @@ To avoid false alarms we run an object classification CNN model on the picture a
 <img src="./img/6.png"><br />
 
 <center><h3>Mobile View and Augmented Reality</h3></center>
+
+Augmented Reality is best experienced with mobile data, our platform will ask for location and camera feed access. Enjoy our Location Marking Augmented Reality at - [arcredx/ar](https://arcredxnasa.herokuapp.com/augment)
 
 <img src="./img/m1.jpg" height=500px> <img src="./img/m2.jpg"  height=500px>
 <br />
