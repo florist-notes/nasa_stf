@@ -1,4 +1,4 @@
-# Nasa International Space Application Challenge
+# [Nasa International Space Application Challenge](https://2020.spaceappschallenge.org/)
 ### Team : [ArcredX](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/arcredx/project) | [Challenge](https://2020.spaceappschallenge.org/challenges/) - Spot The Fire v3.0 [[Details](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/details)] | [arcredxnasa.us](https://arcredxnasa.herokuapp.com/inform)
 
 <img src="./img/nasa_sac.png" height=150px><a> </a><img src="./img/arcredx.PNG" height=150px>
@@ -55,14 +55,15 @@ To avoid false alarms we run an object classification CNN model on the picture a
 ### Technology Stack
 - Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
 - Visualization: Plotly, Leaflet.js, chart_studio, Open Street Map & Google Maps
-- Machine Learning: Python, Pandas, scikit-learn
+- Machine Learning: Python 3, Pandas, scikit-learn, TensorFlow, Keras
 - Augmented Reality: AR.js
 - Design: Adobe Photoshop, Adobe Illustrator, Adobe Premiere
 
 <br />
 <img src="./img/1.PNG"><br />
 <img src="./img/2.PNG"><br />
-<center><h3>Interactive Satellite Data Visualization</h3></center>
+
+### Interactive Satellite Data Visualization [Visit Now](https://arcredxnasa.herokuapp.com/inform)
 <img src="./img/4.png"><br />
 <img src="./img/5.png"><br />
 <img src="./img/6.png"><br />
