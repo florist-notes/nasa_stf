@@ -1,0 +1,57 @@
+{% extends 'public/templates/public_template.html' %}
+
+{% block title %}
+Fire Map | ArcredX
+{% endblock %}
+
+{% block main %}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src='{{ url_for('static', filename='js/libs/leaflet-src.js') }}'></script>
+    <link rel='stylesheet' href='{{ url_for('static', filename='css/leaflet.css') }}'>
+
+    <script src='{{ url_for('static', filename='js/src/Leaflet.draw.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/Leaflet.Draw.Event.js') }}'></script>
+    <link rel='stylesheet' href='{{ url_for('static', filename='css/leaflet.draw.css') }}'>
+
+    <script src='{{ url_for('static', filename='js/src/Toolbar.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/Tooltip.js') }}'></script>
+
+    <script src='{{ url_for('static', filename='js/src/ext/GeometryUtil.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/ext/LatLngUtil.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/ext/LineUtil.Intersect.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/ext/Polygon.Intersect.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/ext/Polyline.Intersect.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/ext/TouchEvents.js') }}'></script>
+
+    <script src='{{ url_for('static', filename='js/src/draw/DrawToolbar.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Feature.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.SimpleShape.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Polyline.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Marker.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Circle.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.CircleMarker.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Polygon.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/draw/handler/Draw.Rectangle.js') }}'></script>
+
+    <script src='{{ url_for('static', filename='js/src/edit/EditToolbar.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/EditToolbar.Edit.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/EditToolbar.Delete.js') }}'></script>
+
+    <script src='{{ url_for('static', filename='js/src/Control.Draw.js') }}'></script>
+
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.Poly.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.SimpleShape.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.Rectangle.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.Marker.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.CircleMarker.js') }}'></script>
+    <script src='{{ url_for('static', filename='js/src/edit/handler/Edit.Circle.js') }}'></script>
+
+</head>
+<body>
+<div id="map" style="width: 100%; height: 660px; border: 1px solid #ccc"></div>
+  <script src='{{ url_for('static', filename='js/full.js') }}'></script>
+</body>
+</html>
+{% endblock %}

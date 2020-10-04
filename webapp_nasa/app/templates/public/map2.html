@@ -1,0 +1,82 @@
+
+{% block main %}
+<html>
+<head>
+<title>ArcredX | Fire Map </title>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!-- Custom CSS by skk-->
+<link rel='stylesheet' href='{{ url_for('static', filename='css/style.css') }}'>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+
+<script src="https://unpkg.com/jquery@3.4.1/dist/jquery.min.js"
+  integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
+  crossorigin=""></script>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css" />
+  <script src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/"><img src="{{url_for('static', filename='img/arcred-x-black.png')}}" align="middle" height=20px/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/map">Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Information</a>
+          </li>
+        </ul>
+      </div>
+    </nav><br />
+    <center><h1>Fire Hazard Mapping  <img src="{{url_for('static', filename='img/flame.png')}}" height=60px></h1>
+<div class="container">
+
+<b>Coordinates</b>
+<form>
+<input type="text" name="lat" id="lat" size=12 value="">
+<input type="text" name="lon" id="lon" size=12 value="">
+</form>
+
+<b>Address Lookup</b>
+<div id="search">
+<input type="text" name="addr" value="" id="addr" size="58" />
+<button type="button" onclick="addr_search();">Search</button>
+<div align="right"> View Full <a href="/draw"><img src="{{url_for('static', filename='img/pen2.png')}}" height=40px></a> Map</div>
+<div id="results"></div>
+</div>
+</center>
+<br />
+</div>
+<div id="map" style="width:100%;height:70%;padding:0;margin:0;"></div>
+
+
+<script src='{{ url_for('static', filename='js/map.js') }}'></script>  
+</body>
+</html>
+{% endblock %}
