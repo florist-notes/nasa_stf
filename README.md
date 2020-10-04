@@ -7,14 +7,14 @@
 ## Solution:
 <img src="./img/solution.jpg"><a> </a>
 
-We propose an end-to-end platform for real time detection, prediction and awarenesss for fire hazard/ wild fires. Our solution is subdivided into 4 parts and the Flow of our solution is:
+We propose an end-to-end platform for real time detection, prediction and awarenesss for fire hazard/ wild fires. Our solution is subdivided into 4 parts and the flow of our solution is:
 
 `Detection:` We have 4 data sources for detection of fire and they are namely:
 
-- <b>Satellite Data:</b> NASA {FIMRS, OpenNEX, GeoNEX} & NOAA Data, Jaxa, CSA MOPITT and ESA Data to detect wild fires in almost real time. This is our first point of data collection for wildfires from satellite view.
+- <b>Satellite Data:</b> NASA {FIMRS, OpenNEX, GeoNEX} & NOAA Data, Jaxa, CSA-MOPITT and ESA Data to detect wild fires in almost real time. This is our first point of data collection of wildfires from satellite view.
 
-- <b>Crowdsourced Data:</b> Anyone who knows of/ comes across any fire hazard / smoke in a volatile area can click a picture and send it over with GPS location (latitude, longitude) to report the incident and it will be sent to the fire department and updated in the visualization board for others to see and be aware of.<br /><br />
-To avoid false alarms we run an object classification CNN model on the picture and if our deep learning model detects it to be smoke/fire/fumes/burning then only it will be reported. 
+- <b>Crowdsourced Data:</b> Anyone who knows of or comes across any fire hazard / smoke in a volatile/flammable area can click a picture and send it over with GPS location (latitude, longitude) to report the incident and it will be sent to the fire department(/concerned authority) and will be updated in the visualization board for others to see and be aware of the incident.<br /><br />
+To avoid false alarms we run an object classification CNN model on the picture and if our deep learning model detects it to be smoke/fire/fumes/burning then it will be reported otherwise discarded. 
 
 - <b>[Future Scope] Sensor Data:</b> IOT sensors with cameras will be placed in strategic locations in wildlife sanctuaries/ national parks which will be embedded with our state of the art vision systems and infrared imaging powered by artificial intelligence/ deep learning to detect smokes and fire. The strategic locations will be found with data analysis of past data for starting point (latitude, longitude) of the wild fires.
 
@@ -22,9 +22,9 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 `Prediction:`
 
-- <b>Risk Factor [Prediction]:</b> We predict the risk factor of having wildfires due to weather phenomena into three levels - Low, Moderate and High based on Weather and Satellite data. Factors such as Dry Season, High Aerosol, Lightning etc may lead to a natural wildfire.
+- <b>Risk Factor [Prediction]:</b> We predict the risk factor of having wildfires due to weather phenomena into three levels - Low, Moderate and High based on Weather data and Satellite data. Factors such as Dry Season, High Aerosol, Lightning etc may lead to a natural wildfire.
 
-- <b>Spread Direction & Severity:</b> We predict the spread direction of the wildfire based on factors such as wind, connectivity of vegetation etc. We visualize and update it real time in the map with yellow marking around the red hotspot of fire.
+- <b>Spread Direction & Severity:</b> We predict the spread direction of the wildfire based on factors such as wind, connectivity of vegetation etc. We visualize and update it real time in the map with yellow marking 🟨 around the red hotspot 🟥 of fire.
 
 `Visualization:`
 
@@ -32,7 +32,7 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 `Awareness and Safety:`
 
-- <b>Awareness:</b> The map visualizes all the fire hazards in real time with predicted spread directions, generates risk factor predictions and severity of current wildfire. If subscribed, our solution also generates alerts for users within a certain range of the origin of the fire. 
+- <b>Awareness:</b> The map visualizes all the fire hazards 🟥 in real time with predicted spread directions 🟨, generates risk factor predictions and severity of current wildfire. If subscribed, our platform generates alerts for users within a certain range of the origin of the fire. 
 
 - <b>Safety and Optimal Path:</b> We find the most optimal path from the current location (near wildfire) to a safety location (relief camp etc) via optimal Machine Learning Algorithms. We process mobility data of the region and give insights in the map on crowded streets, risk score etc. We also embed Augmented Reality with AR.js into our solution to help visualize directions better when people are in a state of panic (often in the case of wildfire).
 
