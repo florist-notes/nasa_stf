@@ -1,0 +1,75 @@
+{% extends 'public/templates/public_template.html' %}
+
+{% block title %}Emergency{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <center>
+                <img src="{{url_for('static', filename='img/firegif.gif')}}" align="middle" height=150px/><hr>
+                <h2>Emergency Contact</h2></center><br /><br />
+                <table style="width:100%">
+                    <tr>
+                    <th>
+                      <h3>Agency</h3>
+                    </th>
+                    <th>
+                        <h3>Details</h3>
+                      </th>
+                      <th>
+                        <h3>Phone Number</h3>
+                      </th>
+                    </tr>
+                    <tr>
+                        <th>
+                          Fire Fighter<br />
+                          <img src="{{url_for('static', filename='img/firedept.png')}}" align="middle" height=100px/>
+                        </th>
+                        <th>
+                            Address: 3000 Hoover St, Los Angeles, CA 90007, United States<br />
+                            Phone: +1 213-485-6215
+                          </th>
+                          <th>
+                            Call : <a href="+91 7002267885"><img src="{{url_for('static', filename='img/call.png')}}" align="middle" height=30px/></a> 
+                            Go to location : <a href="/map"><img src="{{url_for('static', filename='img/pen2.png')}}" align="middle" height=30px/></a>
+                          </th>
+                        </tr>
+                        <tr>
+                    <th>
+                      Police / 911<br />
+                      <img src="{{url_for('static', filename='img/911.png')}}" align="middle" height=100px/>
+                    </th>
+                    <th>
+                        Address: 100 W 1st St, Los Angeles, CA 90012, United States<br />
+                        Phone: +1 213-486-1000
+                      </th>
+                      <th>
+                        Call : <a href="911"><img src="{{url_for('static', filename='img/call.png')}}" align="middle" height=30px/></a>
+                        Go to location : <a href="/map"><img src="{{url_for('static', filename='img/pen2.png')}}" align="middle" height=30px/></a>
+                      </th>
+                    </tr>
+                    <tr>
+                    <th>
+                      Health Camp<br />
+                      <img src="{{url_for('static', filename='img/health.png')}}" align="middle" height=100px/>
+                    </th>
+                    <th>
+                        Address: 5525 W Slauson Ave, Los Angeles, CA 90056, United States<br />
+                        Phone: +1 310-642-0325
+                      </th>
+                      <th>
+                        Call : <a href="+91 7002347885"><img src="{{url_for('static', filename='img/call.png')}}" align="middle" height=30px/></a>
+                        Go to location : <a href="/map"><img src="{{url_for('static', filename='img/pen2.png')}}" align="middle" height=30px/></a>
+                      </th>
+                    </tr>
+                </table>
+            <hr>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

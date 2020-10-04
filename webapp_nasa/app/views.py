@@ -25,6 +25,13 @@ def fire():
 def draw():
     return render_template('public/full1.html')
 
+@app.route('/thankyou')
+def thankyou():
+    return render_template('public/thankyou.html')
+
+@app.route('/help')
+def help():
+    return render_template('public/help.html')
 
 @app.route('/login', methods=["GET", "POST"])
 def sign_up():
@@ -32,10 +39,10 @@ def sign_up():
         req = request.form
         username = req["username"]
         email = req.get("email")
-        message = request.form["message"]
+        password = request.form["password"]
 
-        print(username, email, message)
-        return redirect('/login')
+        print(username, email, password)
+        return redirect('/thankyou')
 
     return render_template('public/login.html')
 
