@@ -33,6 +33,10 @@ def thankyou():
 def help():
     return render_template('public/help.html')
 
+@app.route('/augment')
+def augment():
+    return render_template('public/locationar.html')
+
 @app.route('/login', methods=["GET", "POST"])
 def sign_up():
     if request.method == "POST":
