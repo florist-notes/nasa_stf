@@ -1,5 +1,5 @@
 # Nasa International Space Application Challenge
-### Team : [ArcredX](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/arcredx/project) | [Challenge](https://2020.spaceappschallenge.org/challenges/) - Spot The Fire v3.0 [[Details](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/details)] | [arcredxnasa.us](arcredxnasa.us)
+### Team : [ArcredX](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/teams/arcredx/project) | [Challenge](https://2020.spaceappschallenge.org/challenges/) - Spot The Fire v3.0 [[Details](https://2020.spaceappschallenge.org/challenges/confront/spot-fire-3/details)] | [arcredxnasa.us](https://arcredxnasa.herokuapp.com/inform)
 
 <img src="./img/nasa_sac.png" height=150px><a> </a><img src="./img/arcredx.PNG" height=150px>
 <hr>
@@ -37,6 +37,11 @@ To avoid false alarms we run an object classification CNN model on the picture a
 - <b>Safety and Optimal Path:</b> We find the most optimal path from the current location (near wildfire) to a safety location (relief camp etc) via optimal Machine Learning Algorithms. We process mobility data of the region and give insights in the map on crowded streets, risk score etc. We also embed Augmented Reality with AR.js into our solution to help visualize directions better when people are in a state of panic (often in the case of wildfire).
 
 ### Data Points
+- Fire Information for Resource Management System (FIRMS)
+- FIRMS - MODIS 1km and VIIRS 375m / S-NPP & / NOAA-20
+- CSA MOPITT Data
+- NOAA Storms Event Location Data
+
 🌌 Goal - Patterns in Lightning 
 - Weather Data (Wind, Temperature, Humidity, Atmospheric Oxygen and Dry Climate/Season Data)
 - Past Wildfires Data [ location/ time/ duration/ severity ] | [data.gov](https://www.data.gov/)
@@ -47,11 +52,24 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 ### Technology Stack
 - Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
-- Visualization: 
-- Machine Learning: Python
+- Visualization: Plotly, Leaflet.js, chart_studio, Open Street Map & Google Maps
+- Machine Learning: Python, Pandas, scikit-learn
 - Augmented Reality: AR.js
 - Design: Adobe Photoshop, Adobe Illustrator, Adobe Premiere
 
+<br />
+<img src="./img/1.png"><br />
+<img src="./img/2.png"><br />
+<center><h3>Interactive Satellite Data Visualization</h3></center>
+<img src="./img/4.png"><br />
+<img src="./img/5.png"><br />
+<img src="./img/6.png"><br />
+
+<center><h3>Mobile View and Augmented Reality</h3></center>
+<img src="./img/m1.jpg" height=400px>
+<img src="./img/m2.jpg"  height=400px><br />
+<img src="./img/m3.jpg" height=400px>
+<img src="./img/m4.jpg"  height=400px><br />
 
 ## Problem Statement
 <p align="justify">
