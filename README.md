@@ -50,7 +50,7 @@ To avoid false alarms we run an object classification CNN model on the picture a
 <img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
 <hr>
 
-## 💥 Our Platform Overview - [Video](https://youtu.be/rAXw9tIKfM8) 💥
+## 💥 Our Platform Overview - [Video](https://youtu.be/rAXw9tIKfM8) 💥 | [Slide](https://docs.google.com/presentation/d/1JGik0L8JIbugH7eYyxHINeCGkCFVy5zufUr99yuAMFI/edit?usp=sharing)
 
 ### Technology Stack
 - Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
