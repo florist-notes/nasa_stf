@@ -1,0 +1,35 @@
+{% extends 'public/templates/public_template.html' %}
+
+{% block title %}Statistics{% endblock %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <center>
+                <img src="{{url_for('static', filename='img/nasa.png')}}" align="middle" height=150px/>
+                <h2>Fire Information for Resource Management System (FIRMS)</h2></center>
+                <p align="justify">
+                    NASA's Fire Information for Resource Management System (FIRMS) distributes Near Real-Time (NRT) active fire data within 3 hours of satellite observation from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS) aboard the Terra and Aqua satellites and NASA's Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar orbiting Partnership (Suomi NPP) and NOAA-20 satellites.
+                </p>
+                <h3>MODIS 1km</h3> This plot includes 5000 datapoints from the FIRMS dataset and the whole dataset could not be visualized due to limitations in plotly's free service. Given more bandwidth, the whole dataset can be visualized.
+                <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~saikia/1.embed"></iframe>
+                <h3>VIIRS 375m / S-NPP & / NOAA-20</h3> This plot includes 5000 datapoints from the FIRMS dataset and the whole dataset could not be visualized due to limitations in plotly's free service. Given more bandwidth, the whole dataset can be visualized.
+                <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~saikia/3.embed"></iframe>
+                <center>
+                <img src="{{url_for('static', filename='img/csa.png')}}" align="middle" height=150px/><br />
+                <h2>CSA - MOPITT Data</h2></center>
+                <p align="justify"></p>
+                Carbon monoxide is an immediate product of forest fires. MOPITT data is used regularly with surface observations to illustrate concentrations of this toxic gas through the atmosphere and how this pollution is transported from the source location to other parts of the world.</p>
+
+            <hr>
+            
+            
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

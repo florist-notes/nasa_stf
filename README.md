@@ -4,7 +4,7 @@
 <img src="./img/nasa_sac.png" height=150px><a> </a><img src="./img/arcredx.PNG" height=150px>
 <hr>
 
-## Solution:
+## Solution: Live @ [https://arcredxnasa.herokuapp.com/](https://arcredxnasa.herokuapp.com/)
 <img src="./img/solution.jpg"><a> </a>
 
 We propose an end-to-end platform for real time detection, prediction and awarenesss for fire hazard/ wild fires. Our solution is subdivided into 4 parts and the flow of our solution is:

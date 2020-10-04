@@ -25,6 +25,10 @@ def fire():
 def draw():
     return render_template('public/full1.html')
 
+@app.route('/inform')
+def inform():
+    return render_template('public/inform.html')
+
 @app.route('/thankyou')
 def thankyou():
     return render_template('public/thankyou.html')
