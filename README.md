@@ -50,6 +50,8 @@ To avoid false alarms we run an object classification CNN model on the picture a
 <img src="./img/noaa.png" height=150px><a> </a><img src="./img/meteomatics.webp" height=50px>
 <hr>
 
+## Our Platform Overview - [Video](https://youtu.be/rAXw9tIKfM8)
+
 ### Technology Stack
 - Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
 - Visualization: Plotly, Leaflet.js, chart_studio, Open Street Map & Google Maps
@@ -58,18 +60,18 @@ To avoid false alarms we run an object classification CNN model on the picture a
 - Design: Adobe Photoshop, Adobe Illustrator, Adobe Premiere
 
 <br />
-<img src="./img/1.png"><br />
-<img src="./img/2.png"><br />
+<img src="./img/1.PNG"><br />
+<img src="./img/2.PNG"><br />
 <center><h3>Interactive Satellite Data Visualization</h3></center>
 <img src="./img/4.png"><br />
 <img src="./img/5.png"><br />
 <img src="./img/6.png"><br />
 
 <center><h3>Mobile View and Augmented Reality</h3></center>
-<img src="./img/m1.jpg" height=400px>
-<img src="./img/m2.jpg"  height=400px><br />
-<img src="./img/m3.jpg" height=400px>
-<img src="./img/m4.jpg"  height=400px><br />
+
+<img src="./img/m1.jpg" height=500px> <img src="./img/m2.jpg"  height=500px>
+<br />
+<img src="./img/m3.jpg" height=500px> <img src="./img/m4.jpg"  height=500px>
 
 ## Problem Statement
 <p align="justify">
