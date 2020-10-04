@@ -24,7 +24,7 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 - <b>Risk Factor [Prediction]:</b> We predict the risk factor of having wildfires due to weather phenomena into three levels - Low, Moderate and High based on Weather data and Satellite data. Factors such as Dry Season, High Aerosol, Lightning etc may lead to a natural wildfire.
 
-- <b>Spread Direction & Severity:</b> We predict the spread direction of the wildfire based on factors such as wind, connectivity of vegetation etc. We visualize and update it real time in the map with yellow marking 🟨 around the red hotspot 🟥 of fire.
+- <b>Spread Direction & Severity:</b> We predict the spread direction of the wildfire based on factors such as wind, connectivity of vegetation etc. We visualize and update it real time in the map with yellow marking 🟡 around the red hotspot 🔴 of fire.
 
 `Visualization:`
 
@@ -32,7 +32,7 @@ To avoid false alarms we run an object classification CNN model on the picture a
 
 `Awareness and Safety:`
 
-- <b>Awareness:</b> The map visualizes all the fire hazards 🟥 in real time with predicted spread directions 🟨, generates risk factor predictions and severity of current wildfire. If subscribed, our platform generates alerts for users within a certain range of the origin of the fire. 
+- <b>Awareness:</b> The map visualizes all the fire hazards 🔴 in real time with predicted spread directions 🟡, generates risk factor predictions and severity of current wildfire. If subscribed, our platform generates alerts for users within a certain range of the origin of the fire. 
 
 - <b>Safety and Optimal Path:</b> We find the most optimal path from the current location (near wildfire) to a safety location (relief camp etc) via optimal Machine Learning Algorithms. We process mobility data of the region and give insights in the map on crowded streets, risk score etc. We also embed Augmented Reality with AR.js into our solution to help visualize directions better when people are in a state of panic (often in the case of wildfire).
 
@@ -46,8 +46,8 @@ To avoid false alarms we run an object classification CNN model on the picture a
 <hr>
 
 ### Technology Stack
-- Web Application:
-- Visualization:
+- Web Application: HTML 5, CSS 3, JavaScript, TensorFlow.js, node.js
+- Visualization: 
 - Machine Learning: Python
 - Augmented Reality: AR.js
 - Design: Adobe Photoshop, Adobe Illustrator, Adobe Premiere
