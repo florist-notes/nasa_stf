@@ -1,0 +1,33 @@
+{% extends 'public/templates/public_template.html' %}
+
+{% block title %}Upload Image{% endblock %}
+
+{% block main %}
+<div class='container'>
+    <div class="row"> 
+        <div class="col"><br />
+            <center><img src="{{url_for('static', filename='img/report.gif')}}" align="middle" height=250px/></center>
+            <h2>Upload Image</h2>
+            <hr>
+
+            <form action="/upload-image" method="POST" enctype="multipart/form-data">
+            
+            <div class="form-group">
+                <label>Select your Image</label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" name="image" id="image">
+                    <label class="custom-file-label" for="image">Select Image...</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Upload Image</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+
+{% endblock %}
